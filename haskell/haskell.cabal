@@ -6,14 +6,15 @@ cabal-version: 1.12
 
 name:           haskell
 version:        0.1.0.0
-description:
+description:    Please see the README on GitHub at <https://github.com/githubuser/haskell#readme>
 author:         Tiago Ventosa
 maintainer:     Tiago Ventosa
 build-type:     Simple
 
 library
   exposed-modules:
-      Lib
+      Module1.Basics
+      MyLib
   other-modules:
       Paths_haskell
   hs-source-dirs:
